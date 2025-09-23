@@ -14,10 +14,10 @@ Create a deep learning model which can explain the contents of an image in the f
 This kind of model is a use-case for blind people so that they can understand any image with the help of speech. The caption generated through a CNN-RNN model will be converted to speech using a text to speech library. The model will convert the contents of an image and will provide the output in the form of audio.
 
 Steps Involved -
-1. Traditional CNN-RNN model
+1. Traditional CNN-GRU model
 2. Attention model
 3. Text and Image preprocessing
 4. Data Visualization using wordcloud
 5. Model training and model evaluation (INCEPTIONV3)
-6. Greedy search and BLUE Score
+6. Greedy search and BLeU Score
 
