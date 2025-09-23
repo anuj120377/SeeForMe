@@ -13,7 +13,7 @@ In this project, we will convert an image to text description first; then, using
 Create a deep learning model which can explain the contents of an image in the form of speech through caption generation with an attention mechanism on Flickr8K dataset.
 This kind of model is a use-case for blind people so that they can understand any image with the help of speech. The caption generated through a CNN-RNN model will be converted to speech using a text to speech library. The model will convert the contents of an image and will provide the output in the form of audio.
 
-Techniques Used -
+Steps Involved -
 1. Traditional CNN-RNN model
 2. Attention model
 3. Text and Image preprocessing
