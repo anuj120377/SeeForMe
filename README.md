@@ -21,3 +21,6 @@ Steps Involved -
 5. Model training and model evaluation (INCEPTIONV3)
 6. Greedy search and BLeU Score
 
+### **Approach -**
+
+For SeeForMe, I used the Flickr8k dataset, which contains over 8,000 images, each with five captions. InceptionV3, pretrained on ImageNet (~78% top-1 accuracy), serves as an encoder to extract rich image features. I implemented Bahdanau attention to focus on important regions and used a GRU-based decoder to generate captions sequentially, conditioned on both the attention context and previous words. During inference, I applied Greedy Search and Beam Search to produce accurate captions, evaluated with the BLEU metric. Finally, the captions are converted into natural audio via a TTS API, enabling visually impaired users to perceive their surroundings in real time.
